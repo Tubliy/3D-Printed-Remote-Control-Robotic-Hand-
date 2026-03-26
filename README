@@ -1,0 +1,46 @@
+# 3D Printed Remote Control Robotic Hand
+
+## Overview
+This project implements a wireless, sensor-driven robotic hand using an ESP32 microcontroller. The system enables real-time communication between a sensor-equipped glove and a multi-servo robotic hand, translating input signals into precise mechanical motion.
+
+## Objectives
+- Enable wireless communication between input sensors and actuators  
+- Implement reliable power distribution for multiple servo motors  
+- Develop real-time control logic for accurate motion response  
+- Integrate mechanical and electrical components into a functional system  
+
+## System Architecture
+The system consists of:
+- **ESP32 microcontroller** for wireless communication and control  
+- **Sensor inputs** from a glove to capture user motion  
+- **Servo motors** to actuate finger movement  
+- **3D-printed hand structure** for mechanical implementation  
+
+## Key Features
+- Wireless signal transmission using ESP32  
+- Real-time sensor-to-actuator mapping  
+- Stable power distribution across multiple servos  
+- Integrated hardware and mechanical design  
+- System debugging and signal optimization for reliable operation  
+
+## Implementation
+- Designed embedded control system using ESP32 for communication and signal processing  
+- Implemented power distribution to ensure consistent voltage supply to all servo motors  
+- Developed control logic to convert sensor inputs into actuator motion  
+- Fabricated a custom 3D-printed robotic hand structure  
+- Performed system testing and debugging to resolve noise and stability issues  
+
+## Results
+- Achieved real-time gesture-based control of robotic fingers  
+- Maintained stable operation under multiple actuator loads  
+- Improved signal reliability through debugging and optimization  
+
+## Tools & Technologies
+- ESP32 (embedded system)  
+- Arduino IDE / Embedded C  
+- 3D Printing (PLA)  
+- Servo motors  
+- Electrical circuit design and debugging tools  
+
+## Conclusion
+This project demonstrates the integration of embedded systems, power distribution, and mechanical design to create a responsive and reliable robotic control system.
